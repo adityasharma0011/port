@@ -11,7 +11,7 @@ export default function Home() {
           </h1>
 
           <h2 className="text-xl md:text-2xl text-gray-300 mb-4">
-            Full Stack Developer | B.Tech CSE Student
+            Software Devloper | B.Tech CSE Student
           </h2>
 
           <p className="text-gray-400 mb-3 leading-relaxed">
@@ -19,7 +19,7 @@ export default function Home() {
           </p>
 
           <p className="text-sky-400 font-medium mb-6">
-            🚀 Focused on DSA • Cybersecurity • Generative AI
+            🚀 Focused on DSA • ABAP Programming • LLM Models
           </p>
 
           {/* BUTTONS */}
