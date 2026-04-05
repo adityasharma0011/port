@@ -29,7 +29,7 @@ export default function Home() {
   href="/skillss"
   className="bg-green-500 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
 >
-  Skills
+  Skillss
 </a>
             <a
               href="/projects"
