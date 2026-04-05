@@ -24,6 +24,13 @@ export default function Home() {
 
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-4">
+
+            <a
+  href="/skills"
+  className="bg-green-500 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
+>
+  Skills
+</a>
             <a
               href="/projects"
               className="bg-sky-400 text-black px-5 py-2 rounded-md font-medium hover:scale-105 transition"
