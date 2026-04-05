@@ -1,15 +1,16 @@
 export default function Skills() {
   const skills = [
+    "ABAP Programming",
     "HTML",
     "CSS",
     "JavaScript",
     "React",
-    "Next.js",
-    "Node.js",
-    "Express",
+    "C++",
+    "JAVA",
     "MongoDB",
     "Git",
     "GitHub",
+    
   ];
 
   return (
@@ -19,7 +20,7 @@ export default function Skills() {
         💻 My Skills
       </h1>
 
-      <div className="flex flex-wrap justify-center gap-4">
+     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         
         {skills.map((skill, index) => (
           <div
