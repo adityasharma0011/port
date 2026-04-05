@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-4">
 
             <a
-  href="/skills"
+  href="/skillss"
   className="bg-green-500 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
 >
   Skills
