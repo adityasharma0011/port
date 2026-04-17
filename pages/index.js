@@ -25,30 +25,33 @@ export default function Home() {
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-4">
 
-            <a
+           <a
   href="/skillss"
-  className="bg-green-500 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
+  className="bg-green-500 text-black px-5 py-2 rounded-md font-medium 
+  hover:scale-105 transition shadow-md hover:shadow-[0_0_20px_#22c55e]"
 >
-  Skillss
+  Skills
 </a>
             <a
-              href="/projects"
-              className="bg-sky-400 text-black px-5 py-2 rounded-md font-medium hover:scale-105 transition"
-            >
-              View Projects
-            </a>
+  href="/projects"
+  className="bg-sky-400 text-black px-5 py-2 rounded-md font-medium 
+  hover:scale-105 transition shadow-md hover:shadow-[0_0_20px_#38bdf8]"
+>
+  View Projects
+</a>
+<a
+  href="/contact"
+  className="bg-indigo-500 text-white px-5 py-2 rounded-md font-medium 
+  hover:scale-105 transition shadow-md hover:shadow-[0_0_20px_#a855f7]"
+>
+  Contact Me
+</a>
 
-            <a
-              href="/contact"
-              className="bg-indigo-500 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
-            >
-              Contact Me
-            </a>
 <a
   href="/resume.pdf"
-  target="_blank"
   download
-  className="border border-sky-400 text-sky-400 px-5 py-2 rounded-md font-medium hover:scale-105 transition"
+  className="border border-sky-400 text-sky-400 px-5 py-2 rounded-md font-medium 
+  hover:scale-105 transition shadow-md hover:shadow-[0_0_20px_#38bdf8]"
 >
   Download Resume
 </a>
@@ -56,13 +59,14 @@ export default function Home() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="mt-10 md:mt-0">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-            alt="profile"
-            className="w-60 md:w-80 rounded-full"
-          />
-        </div>
+        <div className="w-60 h-60 md:w-80 md:h-80">
+  <img
+    src="/radhe.jpg"
+    alt="Aditya Sharma"
+    className="w-full h-full object-cover rounded-full border-4 border-sky-400 shadow-lg"
+    className="w-full h-full object-cover rounded-full border-4 border-sky-400 shadow-[0_0_25px_#38bdf8]"
+  />
+</div>
 
       </div>
     </section>

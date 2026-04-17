@@ -54,8 +54,8 @@ export default function Contact() {
 
           <div className="mt-3 space-y-1">
             <p>📧 your-sharmaaditya0049@gmail.com</p>
-            <p>💼 www.linkedin.com/in/aditya-sharma-000609299</p>
-            <p>💻 github.com/your-username</p>
+            <p>💼 linkedin - https://www.linkedin.com/in/aditya-sharma-000609299</p>
+            <p>💻  github - https://github.com/adityasharma0011</p>
           </div>
         </div>
 
