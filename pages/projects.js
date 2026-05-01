@@ -1,25 +1,28 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Website",
+      title: "Notebook App",
       description:
-        "A full-stack e-commerce platform with product listing, cart, and checkout functionality.",
-      tech: ["HTML", "CSS", "JavaScript", "Node.js"],
-      link: "#",
+        "A web-based notebook application to create, manage, and organize notes efficiently with a clean UI.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      live: "https://adityasharma0011.github.io/note-book/",
+      github: "https://github.com/adityasharma0011/note-book",
     },
     {
-      title: "Portfolio Website",
+      title: "Weather App",
       description:
-        "A personal portfolio website to showcase my projects, skills, and experience.",
-      tech: ["Next.js", "Tailwind CSS"],
-      link: "#",
+        "A weather application that shows real-time weather data using API integration with a simple and user-friendly interface.",
+      tech: ["HTML", "CSS", "JavaScript", "API"],
+      live: "https://weather-ap01.netlify.app/",
+      github: "https://github.com/adityasharma0011/weather-app",
     },
     {
-      title: "QR Attendance System",
+      title: "RAG Learning",
       description:
-        "A smart attendance system using QR codes with time-based validation to prevent proxy.",
-      tech: ["JavaScript", "Web APIs"],
-      link: "#",
+        "A project focused on Retrieval-Augmented Generation (RAG) concepts, exploring document processing, chunking, and AI-based responses.",
+      tech: ["Python", "LLM", "RAG"],
+      live: null, // no live demo
+      github: "https://github.com/adityasharma0011/Rag_Learning",
     },
   ];
 
@@ -56,13 +59,33 @@ export default function Projects() {
               ))}
             </div>
 
-            <a
-              href={project.link}
-              target="_blank"
-              className="text-indigo-400 hover:underline"
-            >
-              🔗 View Project
-            </a>
+            {/* 🔥 BUTTONS */}
+            <div className="flex gap-3 mt-4">
+              
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-sky-400 text-black px-4 py-2 rounded-md text-sm 
+                  hover:scale-105 transition shadow-md hover:shadow-[0_0_15px_#38bdf8]"
+                >
+                  🔗 Live
+                </a>
+              )}
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-white px-4 py-2 rounded-md text-sm 
+                hover:scale-105 transition shadow-md hover:shadow-[0_0_15px_#ffffff]"
+              >
+                💻 GitHub
+              </a>
+
+            </div>
+
           </div>
         ))}
 

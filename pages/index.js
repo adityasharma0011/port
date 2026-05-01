@@ -15,11 +15,11 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-400 mb-3 leading-relaxed">
-            I build responsive, user-friendly web applications and love turning ideas into real-world projects.
+            I build and experiment with web applications while continuously improving my problem-solving and development skills.
           </p>
 
           <p className="text-sky-400 font-medium mb-6">
-            🚀 Focused on DSA • ABAP Programming • LLM Models
+            🚀 Focused on Data Structures & Algorithms • ABAP Programming • Generative AI (LLMs)
           </p>
 
           {/* BUTTONS */}
